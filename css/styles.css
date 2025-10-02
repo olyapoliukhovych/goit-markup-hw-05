@@ -790,6 +790,7 @@ input::placeholder {
 
 .input-svg-wrapper {
   margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-label {
@@ -815,7 +816,7 @@ input::placeholder {
   height: 40px;
   outline: transparent;
   padding-left: 38px;
-  margin-top: 4px;
+  /* margin-top: 4px; */
   background-color: transparent;
   /* padding-top: 11px;
   padding-bottom: 11px; */
@@ -835,7 +836,7 @@ input::placeholder {
   height: 120px;
   resize: none;
   padding: 8px 16px;
-  margin-top: 4px;
+  /* margin-top: 4px; */
   /* display: block; */
 
   font-size: 12px;
@@ -899,10 +900,10 @@ input::placeholder {
 }
 
 .own-checkmark {
-  fill: none;
+  fill: inherit;
 }
 
-.modal-checkbox:checked + .policy-own-checkbox {
+.modal-checkbox:checked + .policy-text .policy-own-checkbox {
   fill: #f4f4fd;
   background-color: #404bbf;
   border: none;
