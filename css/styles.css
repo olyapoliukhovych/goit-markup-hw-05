@@ -788,7 +788,11 @@ input::placeholder {
   /* margin-top: 48px; */
 }
 
-.input-svg-wrapper {
+.input-wrapper {
+  margin-bottom: 8px;
+}
+
+.input-comment-wrapper {
   margin-bottom: 16px;
 }
 
