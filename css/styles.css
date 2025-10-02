@@ -692,8 +692,6 @@ input::placeholder {
 
 /* ============= /backdrop with modal styles ============= */
 
-/* ============= /backdrop with modal styles ============= */
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -701,7 +699,7 @@ input::placeholder {
   z-index: 99999;
   width: 100%;
   height: 100%;
-  background-color: background-color rgba(46, 47, 66, 0.4);
+  background-color: rgba(46, 47, 66, 0.4);
 
   opacity: 0;
   pointer-events: none;
@@ -862,19 +860,28 @@ input::placeholder {
 }
 
 .checkbox-container {
-  display: flex;
+  /* display: flex; */
+  /* gap: 8px; */
   align-items: center;
-  gap: 8px;
   margin-bottom: 24px;
+
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
 }
 
 /* .modal-checkbox {
 } */
-
+/* 
 .policy-text {
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;
+} */
+
+.policy-link {
+  text-decoration: underline;
+  color: #4d5ae5;
 }
 
 .policy-own-checkbox {
@@ -946,7 +953,4 @@ input::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
 
-.policy-link {
-  text-decoration: underline;
-  color: #4d5ae5;
-}
+/* ============= /backdrop with modal styles ============= */
