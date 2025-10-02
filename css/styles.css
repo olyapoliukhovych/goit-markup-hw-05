@@ -789,7 +789,7 @@ input::placeholder {
 }
 
 .input-svg-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .form-label {
@@ -864,20 +864,17 @@ input::placeholder {
   /* gap: 8px; */
   align-items: center;
   margin-bottom: 24px;
-
-  font-size: 12px;
-  letter-spacing: 0.04em;
-  color: #8e8f99;
 }
 
 /* .modal-checkbox {
 } */
-/* 
+
 .policy-text {
   font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-} */
+}
 
 .policy-link {
   text-decoration: underline;
